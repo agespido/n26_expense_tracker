@@ -1,0 +1,4 @@
+n26_year_balance_*.csv
+n26_year_expenses_classified_*.csv
+n26-csv-transactions.csv
+.DS_store
