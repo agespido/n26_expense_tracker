@@ -10,7 +10,7 @@ This file, called `` n26-csv-transactions.csv `` contains all the banking transa
 
 By running the following command, we will get the processed data for the given year.
 
-`` python3 path_to_project/main.py year ``
+`` python3 <path_to_project>/main.py <year> ``
 
 Some considerations to be done:
    1. N26 space names are hardcoded in the `` main.py `` file.
@@ -19,7 +19,7 @@ Some considerations to be done:
 
 ## Output files format
 
-### n26_year_balance_<year>.csv
+### n26_year_balance_xxxx.csv
 
 The file has the following format:
 
@@ -29,7 +29,7 @@ The file has the following format:
 |Expenses| | | | | | | | | | | | | |
 |Difference| | | | | | | | | | | | | |
 
-### n26_year_expenses_classified_<year>.csv
+### n26_year_expenses_classified_xxxx.csv
 
 The file has the following columns, being "Expense type" the categories used by N26 Bank to classify the expenses and incomes:
 
