@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a custom tool that processes the CSV file that is available for download to all N26 Bank users. This information will be presented in two csv output files (``n26_year_balance_<year>.csv`` and ``n26_year_expenses_classified_<year>.csv``), than can be used as row data by other scripts, spreadsheets, etc.
+This project is a custom tool that processes the CSV file that is available for download to all N26 Bank users. This information will be presented in two csv output files (``n26_year_balance_<year>.csv`` and ``n26_year_expenses_classified_<year>.csv``), than can be used as input data by other scripts, spreadsheets, etc.
 
 This file, called `` n26-csv-transactions.csv `` contains all the banking transactions between two dates.
 
